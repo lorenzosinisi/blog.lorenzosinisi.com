@@ -15,7 +15,7 @@ set :deploy_to, '/var/www/blog.lorenzosinisi'
 set :bundle_binstubs, nil
 # Default value for :format is :pretty
 set :format, :pretty
-set :linked_files, %w{config/database.yml}
+set :linked_files, %w{config/database.yml config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 # Default value for :log_level is :debug
 set :log_level, :debug
