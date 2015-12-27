@@ -1,0 +1,4 @@
+- if current_user.present?
+  = render partial: 'logged'
+- else
+  = render partial: 'not_logged'

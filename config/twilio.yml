@@ -1,0 +1,18 @@
+# Be sure to restart your server when you modify this file.
+# Here you can set your Twilio API credential in order to send SMS
+
+#production:
+#  from: ''
+#  sid: ''
+#  token: ''
+#
+#development:
+#  from: ''
+#  sid: ''
+#  token: ''
+#
+#test:
+#  from: ''
+#  sid: ''
+#  token: ''
+#
