@@ -25,6 +25,8 @@ require 'capistrano/deploy'
 
 require 'capistrano/bundler'
 require 'capistrano/rails'
+require 'capistrano/rails/assets'
+require 'capistrano/rails/migrations'
 
 # If you are using rbenv add these lines:
 # require 'capistrano/rbenv'

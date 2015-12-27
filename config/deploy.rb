@@ -37,6 +37,7 @@ set :keep_releases, 10
 
 
 
+
 namespace :deploy do
   desc 'Restart application'
   task :restart do
