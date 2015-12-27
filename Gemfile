@@ -44,11 +44,11 @@ gem 'closeio', '~> 2.0'
 gem 'delayed_job_active_record'
 gem "daemons"
 #gem 'icalendar'
-
+gem "cancancan"
+gem 'faker'
 # Use Unicorn as the app server
 # gem 'unicorn'
 group :production do
-  gem 'faker'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'launchy'
@@ -58,7 +58,6 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :test do
-  gem 'faker'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'launchy'
