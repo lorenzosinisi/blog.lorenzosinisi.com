@@ -46,6 +46,7 @@ gem "daemons"
 #gem 'icalendar'
 gem "cancancan"
 gem 'faker'
+gem 'rails_admin'
 # Use Unicorn as the app server
 # gem 'unicorn'
 group :production do
