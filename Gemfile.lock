@@ -254,6 +254,9 @@ GEM
       rspec-mocks (~> 3.3.0)
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
+    rspec_boolean (0.0.4)
+      rspec (~> 3.0)
+      rspec-rails (~> 3.0)
     ruby_parser (3.7.1)
       sexp_processor (~> 4.1)
     sass (3.4.18)
@@ -340,6 +343,7 @@ DEPENDENCIES
   rails_12factor
   rspec-activemodel-mocks
   rspec-rails
+  rspec_boolean
   sass-rails (~> 5.0)
   sms-spec
   sqlite3

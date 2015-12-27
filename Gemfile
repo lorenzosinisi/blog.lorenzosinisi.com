@@ -33,7 +33,6 @@ gem 'formtastic'
 gem 'devise'
 gem 'faraday'
 gem 'rspec-activemodel-mocks'
-gem 'rspec_boolean'
 #gem 'whenever'
 #gem 'activeadmin', github: 'gregbell/active_admin'
 # Use ActiveModel has_secure_password
@@ -64,6 +63,7 @@ group :test do
   gem 'guard-rspec'
   gem 'launchy'
   gem 'sms-spec'
+  gem 'rspec_boolean'
 end
 gem 'capistrano', '~> 3.1.0'
 gem 'capistrano-bundler', '~> 1.1.2'
