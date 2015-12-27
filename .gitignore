@@ -15,7 +15,6 @@ rails_best_practices_output.html
 /log/*
 !/log/.keep
 /tmp
-
 # Uploaded files
 /public/system
 
@@ -24,7 +23,7 @@ rails_best_practices_output.html
 
 # Sublime Text Files
 terminal.glue
-
+db/*.sqlite3 
 .DS_Store
 # vim artifacts
 **.swp

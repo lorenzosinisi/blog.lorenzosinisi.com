@@ -62,7 +62,6 @@ group :test do
   gem 'capybara'
   gem 'guard-rspec'
   gem 'launchy'
-  gem 'sms-spec'
   gem 'rspec_boolean'
 end
 gem 'capistrano', '~> 3.1.0'

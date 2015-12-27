@@ -269,8 +269,6 @@ GEM
     sexp_processor (4.6.0)
     shellany (0.0.1)
     slop (3.6.0)
-    sms-spec (0.1.7)
-      rspec
     sprockets (3.3.4)
       rack (~> 1.0)
     sprockets-rails (2.3.3)
@@ -345,7 +343,6 @@ DEPENDENCIES
   rspec-rails
   rspec_boolean
   sass-rails (~> 5.0)
-  sms-spec
   sqlite3
   therubyracer (~> 0.11.0beta5)
   turbolinks
