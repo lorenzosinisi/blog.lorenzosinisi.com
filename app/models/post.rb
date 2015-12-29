@@ -10,9 +10,10 @@ class Post < ActiveRecord::Base
       field :title do
         help 'Please select a Title'
       end
-
-      field :content, :wysihtml5 do
-        help 'e.g. Something that got your attention'
+      field :content, :text do
+        html_attributes do
+          {rows: 20, cols: 70}
+        end
       end
     end
 
@@ -20,9 +21,10 @@ class Post < ActiveRecord::Base
       field :title do
         help 'Please select a Title'
       end
-
-      field :content, :wysihtml5 do
-        help 'e.g. Something that got your attention'
+      field :content, :text do
+        html_attributes do
+          {rows: 20, cols: 80}
+        end
       end
     end
   end
