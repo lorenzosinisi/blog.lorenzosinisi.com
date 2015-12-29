@@ -12,11 +12,6 @@ class PostsController < ApplicationController
   def show
   end
 
-  # GET /posts/new
-  def new
-    @post = Post.new
-  end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_post

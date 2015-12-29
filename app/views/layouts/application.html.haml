@@ -34,6 +34,7 @@
           %ul.nav.navbar-nav.navbar-right
             %li= link_to "HOME", "/"
             %li= link_to "ABOUT", "/about"
+            %li= link_to "POSTS", posts_path
     .container
       .terminal
         - if user_signed_in?
