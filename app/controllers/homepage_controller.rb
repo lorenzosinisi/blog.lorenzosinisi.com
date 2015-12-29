@@ -4,6 +4,7 @@ class HomepageController < ApplicationController
   end
 
   def about
+    @about = About.last
   end
 
 end

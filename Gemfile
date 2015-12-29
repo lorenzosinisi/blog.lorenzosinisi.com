@@ -49,6 +49,7 @@ gem "daemons"
 gem "cancancan"
 gem 'faker'
 gem 'rails_admin'
+gem 'metamagic'
 # Use Unicorn as the app server
 # gem 'unicorn'
 group :production do
