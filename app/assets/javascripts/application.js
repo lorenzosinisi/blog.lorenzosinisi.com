@@ -13,7 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
+//= require nprogress
 //= require turbolinks
+//= require react
+//= require react_ujs
+//= require components
+//= require turbo-react
 //= require nprogress
 //= require nprogress-turbolinks
 //= require bootstrap-sprockets
