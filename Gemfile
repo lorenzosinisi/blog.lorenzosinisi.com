@@ -15,6 +15,7 @@ group :libv8 do
   gem 'libv8', "~> 3.11.8"
 end
 
+gem 'bootstrap-wysihtml5-rails', '> 0.3.1.24'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -25,7 +26,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 #gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'haml-rails'
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'bootstrap-sass', '~> 3.3.6'
 gem "twitter-bootstrap-rails"
 gem 'nprogress-rails'
 gem 'formtastic-bootstrap'
@@ -33,6 +34,7 @@ gem 'formtastic'
 gem 'devise'
 gem 'faraday'
 gem 'rspec-activemodel-mocks'
+gem 'sprockets-rails', '2.3.3'
 #gem 'whenever'
 #gem 'activeadmin', github: 'gregbell/active_admin'
 # Use ActiveModel has_secure_password
