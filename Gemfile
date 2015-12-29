@@ -15,7 +15,7 @@ group :libv8 do
   gem 'libv8', "~> 3.11.8"
 end
 
-gem 'bootstrap-wysihtml5-rails', '> 0.3.1.24'
+gem 'bootstrap-wysihtml5-rails', '> 0.3.1.24', git: "https://github.com/lorenzosinisi/bootstrap-wysihtml5-rails"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
