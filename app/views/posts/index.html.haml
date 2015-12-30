@@ -7,3 +7,4 @@
     .content= simple_format(post.content)
     %span(data-no-turbolink)= link_to 'Read more >>', post
   %hr
+= paginate @posts

@@ -27,6 +27,7 @@ class About < ActiveRecord::Base
         end
       end
     end
+    
   end
 
 end

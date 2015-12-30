@@ -18,6 +18,7 @@ end
 gem 'bootstrap-wysihtml5-rails', '> 0.3.1.24', git: "https://github.com/lorenzosinisi/bootstrap-wysihtml5-rails" # custom fork as something was broken (icons)
 gem 'redcarpet' # markdown for ruby in the views
 gem "wysiwyg-rails", "~> 1.2.7"
+gem 'kaminari' # pagination
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

@@ -9,7 +9,7 @@ class Ability
      can :manage, :all
      can :dashboard              # grant access to the dashboard
    else
-     can :read, :all
+     can :read, [Post, About]
    end
 
   end
