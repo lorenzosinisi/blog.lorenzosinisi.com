@@ -2,13 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "messages/edit", type: :view do
   before(:each) do
-    @message = assign(:message, Message.create!(
-      :to => "MyString",
-      :from => "MyString",
-      :body => "MyString",
-      :sms_id => "MyString",
-      :sms_status => "MyString"
-    ))
+    @message = assign(:message, FactoryGirl.create(:message))
   end
 
   it "renders the edit message form" do

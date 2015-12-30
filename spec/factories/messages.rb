@@ -1,10 +1,8 @@
 FactoryGirl.define do
   factory :message do
-    to "MyString"
-    from "MyString"
-    body "MyString"
-    sms_id "MyString"
-    sms_status "MyString"
+    to Message.my_number
+    from Message.default_number
+    body "Something"
   end
 
 end

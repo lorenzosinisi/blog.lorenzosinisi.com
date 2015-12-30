@@ -23,7 +23,7 @@ RSpec.describe Message, type: :model do
       expect(message.send_sms(message.my_number, "Ciao")).to be_a Twilio::REST::Message
     end
     it "should raise an error if invalid number" do
-      expect(message.send_sms("eqaufygweui", "Ciao")).to be nil
+      expect{message.send_sms("eqaufygweui", "Ciao")}.to raise_error
     end
   end
 
