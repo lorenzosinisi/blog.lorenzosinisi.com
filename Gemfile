@@ -44,7 +44,6 @@ gem 'sprockets-rails', '2.3.3'
 #gem 'activeadmin', github: 'gregbell/active_admin'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'rails_12factor'
 #gem 'nexmo'
 #gem 'rest-client'
 gem 'closeio', '~> 2.0'
@@ -58,6 +57,7 @@ gem 'metamagic'
 # Use Unicorn as the app server
 # gem 'unicorn'
 group :production do
+  gem 'rails_12factor'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'launchy'
