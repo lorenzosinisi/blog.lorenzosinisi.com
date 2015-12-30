@@ -31,17 +31,11 @@ class Message < ActiveRecord::Base
   end
 
   def self.send_sms(to, body, from = default_number)
-    begin
-      @client = twilio_client
-      @client.account.messages.create({
-          :from => from,
-          :to => to,
-          :body => body
-      })
-    rescue Twilio::REST::RequestError => e
-        puts e.message
-        nil
-    end
+    twilio_client.account.messages.create({
+        :from => from,
+        :to => to,
+        :body => body
+    })
   end
 
   def process_sms
