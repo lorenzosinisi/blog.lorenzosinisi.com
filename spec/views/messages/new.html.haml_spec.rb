@@ -21,10 +21,6 @@ RSpec.describe "messages/new", type: :view do
       assert_select "input#message_from[name=?]", "message[from]"
 
       assert_select "input#message_body[name=?]", "message[body]"
-
-      assert_select "input#message_sms_id[name=?]", "message[sms_id]"
-
-      assert_select "input#message_sms_status[name=?]", "message[sms_status]"
     end
   end
 end

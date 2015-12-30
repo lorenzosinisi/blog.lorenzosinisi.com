@@ -25,7 +25,5 @@ RSpec.describe "messages/index", type: :view do
     assert_select "tr>td", :text => "To".to_s, :count => 2
     assert_select "tr>td", :text => "From".to_s, :count => 2
     assert_select "tr>td", :text => "Body".to_s, :count => 2
-    assert_select "tr>td", :text => "Sms".to_s, :count => 2
-    assert_select "tr>td", :text => "Sms Status".to_s, :count => 2
   end
 end
