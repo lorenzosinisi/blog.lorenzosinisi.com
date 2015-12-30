@@ -20,7 +20,6 @@ config/secrets.yml
 /tmp
 # Uploaded files
 /public/system
-
 # Pow files
 .powenv
 
