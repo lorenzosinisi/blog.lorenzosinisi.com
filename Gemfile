@@ -19,6 +19,7 @@ gem 'bootstrap-wysihtml5-rails', '> 0.3.1.24', git: "https://github.com/lorenzos
 gem 'redcarpet' # markdown for ruby in the views
 gem "wysiwyg-rails", "~> 1.2.7"
 gem 'kaminari' # pagination
+gem 'twilio-ruby' # sms and calls
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
